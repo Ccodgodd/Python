@@ -1,4 +1,4 @@
-#2)
+#2)Question 2
 n=int(input("Enter the number of days the user is sitting:"))
 if n<=5:
   print(n)
@@ -13,7 +13,7 @@ elif 11<=n<=15:
 else:
   print(n)
   print(n*5,"Rs")
-#3)
+#3)Question 3
 n=int(input("Enter the number:-"))
 if n%2==0:
   if 2<=n<=5:
@@ -24,7 +24,7 @@ if n%2==0:
     print(" ")
 else:
   print("WIERD")
-  #1)
+  #1)Question 1
   ch=str(input("enter the alphabet :"))
 if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A' or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U'):
     print("it is a vowel")

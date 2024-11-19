@@ -22,16 +22,19 @@ else:
     print("Please write the three which is mentioned here...")
 
 comp=random.randint(-1,2)
+print("Computer chose",comp)
 if comp == "snake":
     comp = -1
+    
 elif comp == "water":
     comp = 0
-elif comp == "gun":
-    comp = 1
+    
 else:
-    print("Please write the three which is mentioned here...")
+    comp = 1
 
-print("Computer chose",comp)
+
+
+
 
 if n==-1 and comp==0 :
     print("U won")
@@ -47,6 +50,7 @@ elif n==1 and comp==0:
     print("U loose daa...")
 else:
     print("Both are same")
+    print("Computer chose",comp)
     n=input("Enter your item here.....")
     n=n.lower()
     if n==-1 and comp==0 :
